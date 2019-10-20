@@ -1,0 +1,32 @@
+//MODULE ASSIGNMENT 2 - LEVEL 2
+
+1. What is a function literal?
+
+A function literal is a synonym for function expression. It has four parts:
+	1: The reserved word "function".
+	2: The name of the function
+	3: A set of parameters inside parantesis (). Either none or more names, separated by commas.
+	4: A set of statements inside curly braces {}. They are the body of the function and will be 	executed when the function is invoked.¢¢
+
+2. What is the constructor?
+
+The constructor is a function that is ment to be used with the new prefix. It creates a new object based on the prototype of the function and binds that object to the function with the "this" parameter. The function name start with a capital letter to show others that it is a constructor.
+
+3. What does the return statement do?
+
+The return statement returns something back to the caller. It can be used to get a function to return early. Because when the return is executed, the function returns immediatly and stops executing the rest of the statements.
+
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+
+// inside my function
+
+
+5. Briefly describe scope in JavaScript.
+
+JavaScript have function scope, the variables live in the functions. It means that the parameters and variables are not visible outside of the function. A variable that is defined anywhere inside the function is visable everywhere inside the function.
